@@ -22,7 +22,7 @@ footer {
 #picture_of_marisa {
   grid-column: 1;
   max-width: 250px;
-  max-height: auto;
+
   justify-self: end;
   box-shadow: 1px 1px 4px #22223b;
 }
@@ -37,8 +37,8 @@ h1 {
 h2 {
   font-size: 1.75em;
 }
-.content {
-  max-width: 850px;
+body {
+  max-width: 900px;
   margin: 0 auto;
   color: #001219;
 }
