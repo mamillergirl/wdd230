@@ -22,7 +22,7 @@ footer {
 }
 #picture_of_marisa {
   grid-column: 1;
-  max-width: 250px;
+  max-width: 85%;
 
   justify-self: end;
   box-shadow: 1px 1px 4px #22223b;
