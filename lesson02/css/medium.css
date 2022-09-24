@@ -1,0 +1,22 @@
+@media (min-width: 32.5em) and (max-width: 1100px){
+    main{
+    
+        margin: 0 auto;
+        color: #001219;
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-content: center;
+        }
+  
+    #contrast {
+        grid-column-start: 1;
+        grid-column-end:3;
+        max-width: 400px;
+        justify-self: center;
+        align-self: center;
+        
+    }
+}
