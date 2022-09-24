@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway");
+h1,
+h2 {
+  font-family: "Raleway", "Crimson Text", serif;
+  text-shadow: 1px 1px 1.75px #22223b;
+}
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 1.75em;
+}
