@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Raleway");
 h1,
-h2 ,
-h3{
+h2,
+h3 {
   font-family: "Raleway", "Crimson Text", serif;
   text-shadow: 1px 1px 1px #22223b;
 }
@@ -12,77 +12,74 @@ h2 {
   font-size: 1.75em;
 }
 h3 {
-  font-size:1.25em;
+  font-size: 1.25em;
 }
-header, footer{
-    background-color:  #22223b;
-    max-width: 100%;
-    color: #EFE6EF;
-    text-align: center;
+header,
+footer {
+  background-color: #22223b;
+  max-width: 100%;
+  color: #efe6ef;
+  text-align: center;
 }
-header h1, header h3, section h2{
-    
-    text-shadow: 1px 1px .5px #E7DAE7;
+header h1,
+header h3,
+section h2 {
+  text-shadow: 1px 1px 0.5px #e7dae7;
 }
 header h1 {
-    padding-top: 15px;
-    padding-right: 10px;
-    padding-left: 10px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 header h3 {
-    padding-bottom: 15px;
-    padding-right: 10px;
-    padding-left: 10px;
-
+  padding-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 img {
-    max-width: 90%;
-    width: 400px;
-    border-radius: 25px;
+  max-width: 90%;
+  width: 400px;
+  border-radius: 25px;
 }
-body{
-    background-color: #F7F4F3;
+body {
+  background-color: #f7f4f3;
 }
-main{
+main {
   max-width: 100%;
   margin: 0 auto;
   color: #001219;
 
   display: grid;
   grid-gap: 15px;
-  
+
   justify-content: center;
   align-content: center;
-  
 }
 
 .principle h2 {
-    background-color: #34345B;
-    color: #EFE6EF;
-    padding: 10px;
-    
+  background-color: #34345b;
+  color: #efe6ef;
+  padding: 10px;
 }
-.principle{
-    border-radius: 25px;
-    border: 0.5rem;
-   
-    max-width:98%;
-    background-color: #EFE9E7;
-    border: .2px solid black;
-    text-align:center;
-   
+.principle {
+  border-radius: 25px;
+  border: 0.5rem;
+
+  max-width: 98%;
+  background-color: #efe9e7;
+  border: 0.2px solid black;
+  text-align: center;
 }
 
 .principle img {
-    justify-self: center;
-    align-self: center;
+  justify-self: center;
+  align-self: center;
 }
-h3, p {
-    
-    padding: 10px;
+h3,
+p {
+  padding: 10px;
 }
 p {
-   
-    font-family: "Playfair Display", "Garamond", serif;
-    font-size: 1.1em;
+  font-family: "Playfair Display", "Garamond", serif;
+  font-size: 1.1em;
 }
