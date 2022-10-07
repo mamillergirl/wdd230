@@ -1,0 +1,163 @@
+/* Small/Phone View ***************/
+
+header, nav, main, footer {
+   
+    margin: 0 auto;
+   
+}
+header, nav, footer {
+    text-align: center;
+}
+
+body {
+    background-color: #8DAEB9;
+}
+main{
+    background-color: #D3D3D3;
+    max-width: 95%;
+    display: grid;
+    gap: 5px;
+    padding:10px
+   
+    
+	
+}
+
+header, footer{
+    background-color: #B2714F;
+    color: #F9F3DC;
+    max-width: 96%;
+    max-height: 18%;
+}
+
+.topFooter {
+    border-bottom: 1px solid #F9F3DC;
+    padding: 10px;
+}
+
+footer img {
+    max-width: 150px;
+}
+span {
+    padding: 10px;
+}
+#logo {
+    margin-left: 1rem;
+    max-width: 40%;
+    float: left;
+}
+
+header {
+    
+    padding: 5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+footer {
+    display: flex;
+    flex-flow: column;
+	align-items: center;
+	justify-content: space-between;
+    text-align: center;
+}
+
+h1, h2, h3, h4, li {
+    font-family: "Ubuntu", "Crimson Text", serif;
+    padding: 10px;
+    text-align: center;
+    
+}
+.date {
+   min-width: 40%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+    background-color: #C18D71;
+    
+    margin-right: 1.5rem;
+
+}
+
+h2{
+    font-size: 2em;
+    text-shadow: 1px 1px .2px black;
+    
+}
+h3{
+    font-size: 1.5em;
+}
+h4, li {
+    font-size: 1.25em;
+}
+p{
+    padding: 20px;
+    font-family: "Playfair Display", "Garamond", serif;
+}
+
+img{
+    max-width: 300px;
+}
+nav {
+	
+    border:1px solid #F9F3DC;
+    
+}
+
+main div{
+    background-color: #C2C2C2;
+    border:1px solid black;
+    width: 95%;
+    justify-self: center;
+    
+
+}
+
+.bottom {
+    justify-content: center;
+}
+#spotlight3{
+    display:none;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+    
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: #F9F3DC;
+	font-weight: 700;
+	transition: 0.5s;
+	
+}
+a {
+    text-align: center;
+	text-decoration: none;
+    color: #F9F3DC;
+}
+
+.navigation a.ham::before {
+	content: "☰ ";
+}
+
+
+
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: "X ";
+}

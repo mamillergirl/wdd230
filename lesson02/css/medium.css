@@ -9,6 +9,10 @@
     justify-content: center;
     align-content: center;
   }
+  nav a:hover {
+    background-color: #F9F3DC;
+    color: #B2714F;
+  }
 
   #proximity {
     grid-column-start: 1;
@@ -26,4 +30,10 @@
     justify-self: center;
     align-self: center;
   }
+  .topFooter{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
 }
