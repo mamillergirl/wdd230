@@ -22,7 +22,9 @@ main{
     
 	
 } 
-
+.spotlight{
+    margin: 0 auto;
+  }
 
 header, footer{
     background-color: #B2714F;
