@@ -3,15 +3,33 @@
     #logo{
         max-width: 200px;
     }
-    
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
    
 	nav a {
 		font-size: 1.1rem;
 	}
-    .spotlights {
+    #holder {
         display:grid;
         grid-template-columns: 1fr 1fr;
     }
-  
+    .spotlight{
+        margin: 5px;
+    }
+    .call_to_action, .news, #holder, .join {
+        width: 100%;
+        grid-column: 1 / -1;
+    }
+    .event {
+        grid-column: 1 / 2;
+        width: 100%;
+    }
+    .weather {
+        grid-column: 2 / 3;
+        width: 100%;
+    }
+   
 
 }

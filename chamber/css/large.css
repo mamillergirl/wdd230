@@ -1,7 +1,7 @@
 @media (min-width: 1100px) {
-    #logo{
-        max-width: 200px;
-    }
+  #logo {
+    max-width: 200px;
+  }
   nav a {
     font-size: 1.3rem;
   }
@@ -11,7 +11,7 @@
   .navigation {
     display: flex;
     justify-self: flex-end;
-   
+
     display: flex;
 
     justify-content: space-around;
@@ -29,10 +29,12 @@
   #spotlight3 {
     display: block;
   }
+ 
   main {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px;
+    gap: 10px;
   }
   .event {
     grid-column: 1 / 2;
@@ -44,7 +46,7 @@
   }
   .join {
     grid-column: 1/ 2;
-    grid-row: 3 / 4 ;
+    grid-row: 3 / 4;
   }
   .call_to_action {
     grid-column: 2 / 3;
@@ -54,22 +56,26 @@
     grid-column: 2 /3;
     grid-row: 3 / 4;
   }
-  .spotlight{
+  #holder {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     height: 100%;
+    gap: 10px;
+    grid-row: 1 / -1;
+    row-gap: 10px;
    
+  } 
+
+
+
+  .topFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
-  .spotlights {
-    grid-column : 3 / 4;
-    height: 100%;
+  nav a:hover {
+    background-color: #f9f3dc;
+    color: #b2714f;
   }
-  .topFooter{
-   
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-nav a:hover {
-	background-color: #F9F3DC;
-	color: #B2714F;
-}
 }
