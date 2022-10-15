@@ -1,6 +1,6 @@
 /* Small/Phone View ***************/
-
-header, nav, main, footer {
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu");
+#mainHeader,header, nav, main, footer {
    
     margin: 0 auto;
    
@@ -14,6 +14,7 @@ body {
 }
 main{
     background-color: #D3D3D3;
+
     max-width: 95%;
     display: grid;
     gap: 5px;
@@ -22,35 +23,78 @@ main{
     
 	
 } 
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#weather {
+    max-width: 95%;
+    max-height: 95%;
+
+} 
+.weather{
+    max-width: 92%;
+}
+
+.details{
+    box-shadow: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    
+    
+}
+.description {
+    text-align: right;
+    border-bottom:1px solid black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+#picture_of_show_low{
+   width: 1fr 1fr;
+}
 .spotlight{
     margin: 0 auto;
   }
-
-header, footer{
-    background-color: #B2714F;
-    color: #F9F3DC;
+header, footer {
     max-width: 96%;
     max-height: 18%;
+}
+#mainHeader,  footer{
+    background-color: #B2714F;
+    color: #F9F3DC;
+    
 }
 
 .topFooter {
     border-bottom: 1px solid #F9F3DC;
     padding: 10px;
 }
-
+main img{
+    max-width: 35%;
+    max-height: 35%;
+    padding: 10px;
+    margin: 0 auto;
+}
 footer img {
     max-width: 150px;
 }
 span {
     padding: 10px;
 }
-#logo {
+#logo{
     margin-left: 1rem;
     max-width: 40%;
     float: left;
 }
+#logo img{
+    max-width: 100%;
+}
 
-header {
+#mainHeader {
     
     padding: 5px 0;
 	display: flex;
@@ -66,10 +110,15 @@ footer {
 	justify-content: space-between;
     text-align: center;
 }
+h3{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
 
 h1, h2, h3, h4, li {
     font-family: "Ubuntu", "Crimson Text", serif;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
     
 }
@@ -87,22 +136,82 @@ h1, h2, h3, h4, li {
 h2{
     font-size: 2em;
     text-shadow: 1px 1px .2px black;
+    color:#42461D;
     
 }
 h3{
     font-size: 1.5em;
+    color:#42461D;
+    text-shadow: 1px 1px .1px black;
 }
 h4, li {
     font-size: 1.25em;
 }
 p{
-    padding: 20px;
+    
+    font-size: 1.02em;
     font-family: "Playfair Display", "Garamond", serif;
 }
-
-img{
-    max-width: 300px;
+.call_to_action{
+    
+  position: relative;
+   display: flex;
+   min-height: 150px;
+    
 }
+.call_to_action h2{
+    
+
+    color: #F6EECB;
+    text-align: left;
+    display: inline;
+    
+  
+}
+
+button {
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 1px .2px black;
+    font-size: 1.2em;
+}
+.call_to_action button {
+   
+   
+    
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin: 5px;
+ 
+
+    
+    background-color:#F6EECB;
+    color: #42461D;
+   
+}
+.join, .event, .spotlight, .news{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.join p {
+    justify-self: center;
+    align-self: center;
+}
+.join button {
+    border-radius: 8px;
+    color:#F6EECB;
+    background-color: #42461D;
+    
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 95%;
+}
+
+
 nav {
 	
     border:1px solid #F9F3DC;
@@ -111,11 +220,26 @@ nav {
 
 main div{
     background-color: #C2C2C2;
-    border:1px solid black;
-    width: 95%;
+   box-shadow:  1px 1px 1px black;
+    width: 98%;
     justify-self: center;
+    text-align: center;
     
 
+}
+.banner{
+    display: none;
+
+}
+header p {
+    padding: 20px;
+}
+
+.announcement {
+    display:block;
+    background-color: #42461D;
+    color: #F6EECB; 
+    padding: 10px;
 }
 
 .bottom {
@@ -145,12 +269,16 @@ main div{
 	transition: 0.5s;
 	
 }
-a {
+header a, footer a {
+    color: #F9F3DC;
+} 
+a{
     text-align: center;
 	text-decoration: none;
-    color: #F9F3DC;
 }
-
+main a{
+    color:#B2714F
+}
 .navigation a.ham::before {
 	content: "☰ ";
 }

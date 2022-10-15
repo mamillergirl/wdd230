@@ -32,8 +32,9 @@
  
   main {
     display: grid;
+    
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 250px 250px 250px;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 10px;
   }
   .event {
@@ -78,4 +79,7 @@
     background-color: #f9f3dc;
     color: #b2714f;
   }
+}
+img {
+  height: 100%;
 }

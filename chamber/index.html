@@ -11,9 +11,9 @@
     <link href="css/medium.css" rel="stylesheet" />
     <link href="css/large.css" rel="stylesheet" />
   <body>
-    <header>
-     
-      <img src="images/logo_with_background.png" alt="Chamber Logo" id="logo">
+    <header >
+     <div id="mainHeader">
+      <div id="logo"><a href="index.html"><img src="images/logo_with_background.png" alt="Chamber Logo" ></a></div>
       <div class="bottom">
       <nav >
         <ul class="navigation">
@@ -29,37 +29,68 @@
         <p id="currentDate"></p>
       </div>
     </div>
+  </div>
+  <div class="banner">
+    <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+  </div>
     </header>
     
    
    
     <main>
-      <div class="call_to_action">
-        <p>Site name and Call to Action</p>
+      
+      <div class="call_to_action"  style="background-image: url('images/picture_of_show_low.png');">
+        <h2>Welcome to Show Low!</h2>
+        <button id="join_buttom">Join the Chamber</button>
       </div>
       <div class="news">
-        <p>News Release</p>
+        <h3>News Release</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi scelerisque. Tellus mauris a diam maecenas sed. Tristique nulla aliquet enim tortor at auctor urna nunc. Eget nunc scelerisque viverra mauris.</p>
       </div>
       <div id="holder">
         <div class="spotlight">
-          <p>Spotlight 1</p>
+          <h3>Williams Contracting</h3>
+          <img src="images/Tools.png" alt="tools">
+          <p class="slogan">Making your dreams a reality!</p>
+          <p>williamnscontracting@business.com</p>
+          <p>800-111-1111</p>
         </div>
         <div class="spotlight">
-          <p>Spotlight 2</p>
+          <h3>Smith Photography</h3>
+          <img src="images/camera.png" alt="tools">
+          <p class="slogan">Capturing the beauty of your journey.</p>
+          <p>james@smithphoto.com</p>
+          <p>800-111-1111</p>
         </div>
         <div class="spotlight" id="spotlight3">
-          <p>Spotlight 3</p>
+          <h3>The Joint</h3>
+          <img src="images/forks.png" alt="tools">
+          <p class="slogan">Our dinner is winner!</p>
+          <p>hello@thejoint.com</p>
+          <p>800-111-1111</p>
         </div>
       </div>
       <div class="join">
-        <p>Join</p>
+        <button>Join Us</button>
+        <p>Discover how to join the Chamber of Commerce and how it will benefit your business!</p>
+  
       </div>
       
       <div class="event">
-        <p>Events</p>
+        <h3>Taste Testing</h3>
+        <h4>🥐 White Mountain Pastries</h4>
+        <p>Join us for the opening of White Mountain Pastries. There will be samples for everybody! Saturday at 2:00 p.m. <a href="3">More info...</a></p>
       </div>
       <div class="weather">
-        <p>Weather</p>
+        <h3>Weather</h3>
+       <div class="details">
+        <img src="images/placeholder.png" alt="weather icon" id="weather">
+        <h4><span class="temperature">33</span>°C</h4>
+       </div>
+       <h4 class="description">Partly Cloudy</h4>
+       <p>Wind Speed:      <span class="windSpeed">20 km/h</span></p>
+       <p>Wind Chill:      <span class="windChill">N/A</span></p>
+
       </div>
     
     </main>

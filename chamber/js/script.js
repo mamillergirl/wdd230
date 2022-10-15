@@ -8,12 +8,19 @@ window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('
 
 const current = new Date();
 
-const full_date = new Intl.DateTimeFormat('en-US', {dateStyle: 'full'}).format(current);
-document.querySelector('#currentDate').innerHTML = full_date;
+const fullDate = new Intl.DateTimeFormat('en-US', {dateStyle: 'full'}).format(current);
+document.querySelector('#currentDate').innerHTML = fullDate;
 
 let year = current.getFullYear();
 document.querySelector('#year').innerHTML = year;
 
 let lastModified = new Date(document.lastModified);
+const banner = document.querySelector('.banner')
+
+
+if (current.getDay() ==  1 ||current.getDay() ==  2){
+   banner.classList.toggle('announcement')
+}
 
 document.querySelector('#last_modified').innerHTML = lastModified;
+
