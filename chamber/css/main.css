@@ -231,7 +231,7 @@ main div{
 }
 
 header p{
-    margin: 0px;
+    padding:10px;
 }
 .announcement {
     display:block;
