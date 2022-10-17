@@ -232,12 +232,14 @@ main div{
 
 header p{
     padding:10px;
+    margin: 0px;
 }
 .announcement {
     display:block;
     background-color: #42461D;
     color: #F6EECB; 
     padding: 10px;
+    
 }
 
 .bottom {
