@@ -23,4 +23,3 @@ if (current.getDay() ==  1 ||current.getDay() ==  2){
 }
 
 document.querySelector('#last_modified').innerHTML = lastModified;
-

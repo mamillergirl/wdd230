@@ -28,8 +28,8 @@ p {
     padding-right: 10px;
 }
 #weather {
-    max-width: 95%;
-    max-height: 95%;
+    max-width: 90%;
+    max-height: 90%;
 
 } 
 .weather{
@@ -71,11 +71,26 @@ header, footer {
     border-bottom: 1px solid #F9F3DC;
     padding: 10px;
 }
-main img{
+.spotlight img{
     max-width: 35%;
     max-height: 35%;
     padding: 10px;
     margin: 0 auto;
+    
+}
+.call_to_action img{
+    object-fit: cover;
+    width: 100%;
+}
+.call_to_action{
+    position: relative;
+    text-align: center;
+}
+
+#welcome{
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
 footer img {
     max-width: 150px;
@@ -85,11 +100,12 @@ span {
 }
 #logo{
     margin-left: 1rem;
-    max-width: 30%;
+    max-width: 25%;
     float: left;
 }
 #logo img{
-    max-width: 80%;
+    max-width: 75%;
+    padding:5px;
 }
 
 #mainHeader {

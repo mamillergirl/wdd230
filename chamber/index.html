@@ -39,9 +39,14 @@
    
     <main>
       
-      <div class="call_to_action"  style="background-image: url('images/picture_of_show_low.png');">
-        <h2>Welcome to Show Low!</h2>
+      <div class="call_to_action">
+        <h2 id="welcome">Welcome to Show Low!</h2>
         <button id="join_buttom">Join the Chamber</button>
+        <picture>
+          <source srcset="images/labeled-medium.png" media="(min-width:600px) and (max-width:799px)">
+          <source srcset="images/labeled-large.png" media="(min-width:800px)">
+          <img src="images/labeled.png" alt="Picture of Show Low">
+        </picture>
       </div>
       <div class="news">
         <h3>News Release</h3>
@@ -51,21 +56,21 @@
         <div class="spotlight">
           <h3>Williams Contracting</h3>
           <img src="images/Tools.png" alt="tools">
-          <p class="slogan">Making your dreams a reality!</p>
+          <p class="slogan">"Making your dreams a reality!"</p>
           <p>williamnscontracting@business.com</p>
           <p>800-111-1111</p>
         </div>
         <div class="spotlight">
           <h3>Smith Photography</h3>
           <img src="images/camera.png" alt="tools">
-          <p class="slogan">Capturing the beauty of your journey.</p>
+          <p class="slogan">"Capturing the beauty of your journey."</p>
           <p>james@smithphoto.com</p>
           <p>800-111-1111</p>
         </div>
         <div class="spotlight" id="spotlight3">
           <h3>The Joint</h3>
           <img src="images/forks.png" alt="tools">
-          <p class="slogan">Our dinner is winner!</p>
+          <p class="slogan">"Our dinner is winner!"</p>
           <p>hello@thejoint.com</p>
           <p>800-111-1111</p>
         </div>
@@ -85,11 +90,11 @@
         <h3>Weather</h3>
        <div class="details">
         <img src="images/placeholder.png" alt="weather icon" id="weather">
-        <h4><span class="temperature">33</span>°C</h4>
+        <h4><span id="temperature">40</span>℉</h4>
        </div>
        <h4 class="description">Partly Cloudy</h4>
-       <p>Wind Speed:      <span class="windSpeed">20 km/h</span></p>
-       <p>Wind Chill:      <span class="windChill">N/A</span></p>
+       <p>Wind Speed:<span id="windSpeed">15</span>m/h</p>
+       <p>Wind Chill:<span id="windChill">N/A</span></p>
 
       </div>
     
@@ -104,5 +109,6 @@
       <p>&copy;<span id="year"></span> Show Low City Chamber  |    Marisa Miller     |   WDD 230 Project   |    Last Modified:<span id="last_modified"></span></p>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
   </body>
 </html>
