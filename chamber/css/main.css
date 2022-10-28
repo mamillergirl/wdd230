@@ -18,16 +18,36 @@ body {
 }
 main {
   background-color: #d3d3d3;
-
-  max-width: 95%;
-  display: grid;
-  gap: 5px;
+  
+  max-width: 94%;
+  
   padding: 10px;
 }
+.home {
+  display: grid;
+  gap: 5px;
+}
+
 p {
   padding-left: 10px;
   padding-right: 10px;
 }
+.discoverImages{
+  display: grid;
+  text-align: center;
+  grid-gap: 10px;
+}
+.discoverImages img {
+  max-height: 80%;
+  max-width: 90%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+.discoverImages h4{
+  margin: 0;
+  padding-bottom: 20px;
+}
+ 
 #weather {
   max-width: 90%;
   max-height: 90%;
@@ -137,6 +157,7 @@ li {
   min-width: 40%;
   margin-top: 0px;
   margin-bottom: 0px;
+  justify-self: center;
 
   background-color: #c18d71;
 
@@ -234,6 +255,12 @@ header p {
   background-color: #42461d;
   color: #f6eecb;
   padding: 10px;
+}
+.announcement h3 {
+  color: #f6eecb;
+  font-size: 1.2em;
+  
+  margin: 0px;
 }
 
 .bottom {
