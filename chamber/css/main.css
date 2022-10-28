@@ -38,8 +38,8 @@ p {
   grid-gap: 10px;
 }
 .discoverImages img {
-  max-height: 80%;
-  max-width: 90%;
+  height: 80%;
+  width: 90%;
   object-fit: cover;
   margin-top: 10px;
 }
