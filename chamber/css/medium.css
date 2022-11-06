@@ -11,7 +11,14 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
+    .content{
+        flex-direction: rox;
+    }
+    .content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
     .last{
         
         grid-column: 1 / 3;

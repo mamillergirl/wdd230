@@ -25,7 +25,7 @@
               <li><a href="#" class="ham">Menu</a></li>
               <li><a href="discover.html">Discover</a></li>
               <li><a href="#">Directory</a></li>
-              <li><a href="#">Join</a></li>
+              <li><a href="join.html">Join</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
           </nav>
@@ -38,7 +38,78 @@
       </div>
     </header>
     <main>
+      <div class="content">
+  
+      <form id="form" action="thankyou.html" method="GET">
+        <label for="fname">First Name*: </label>
+        <input id="fname" type="text"  name="firstname" required>
+        <label for="lname">Last Name*:</label>
+        <input id="lname" type="text" name="lastname" required>
+        <label for="position">Business Position Title*: <br>(Only letters, spaces and dashes at least 7 characters)</label>
+        <input required id="position" name="position" pattern="[- A-Z a-z]+" minlength="7">
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email" placeholder="example@email.com" >
+        <label for="cellnumber">Cell Phone Number:</label>
+        <input id="cellnumber" type="tel" name="cellnumber"  required>
+        <label for="bname">Business Name:</label>
+        <input id="bname" type="text" name="bname" required>
+        <label for="mlevel">Membership Level: </label>
+        <div id="radio">
+          <div class="radio">
+          <input type="radio" id="one" name="mlevel" value="level1">
+          <label for="one">NP</label>
+          </div>
+          <div class="radio">
+          <input type="radio" id="two" name="mlevel" value="level1">
+          <label for="two">Bronze</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="three" name="mlevel" value="level1">
+          <label for="three">Silver</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="four" name="mlevel" value="level1">
+          <label for="four">Gold</label>
+        </div>
+        </div>
+        
+        <label for="description">Business Description:</label>
+        <textarea required id="description" placeholder="your business description here"></textarea>
+        <input type="hidden" id="date" name="dateTime">
+        <input id="formbutton" type="submit" value="Join the Chamber">
 
+        
+      </form>
+ 
+      <div class="membership">
+        <h3>Membership Level Benefits</h3>
+        <h4>NP Membership</h4>
+        <ul>
+          <li>For non-profit organizations there is no fee</li>
+        </ul>
+        <h4>Bronze Membership</h4>
+        <ul>
+          <li>15% discount on events</li>
+          <li>10% discount on advertising</li>
+          <li>Fee of $50/month</li>
+        </ul>
+        <h4>Silver Membership</h4>
+        <ul>
+          <li>25% discount on events</li>
+          <li>15% discount on advertising</li>
+          <li>Free participation in the trade fair</li>
+          <li>Fee of $100/month</li>
+        </ul>
+        <h4>Gold Membership</h4>
+        <ul>
+          <li>50% discount on events</li>
+          <li>50% discount on advertising</li>
+          <li>Free participation in the trade fair</li>
+          <li>1 free training per quarter</li>
+          <li>Fee of $250/month</li>
+        </ul>
+      </div>
+      </div>
     </main>
 
     <footer>
@@ -60,6 +131,6 @@
     </footer>
     <script src="js/script.js"></script>
     <script src="js/lazyload.js"></script>
-    <script src="js/localstorage.js"></script>
+    <script src="js/form.js"></script>
   </body>
 </html>
