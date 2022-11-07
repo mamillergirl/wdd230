@@ -212,6 +212,11 @@ button {
   padding:10px;
   border-radius: 10px;
 }
+.call_to_action button{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
 .join,
 .event,
 .spotlight,
