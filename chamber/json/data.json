@@ -41,6 +41,48 @@
         "phone": "(928) 532-4454",
         "url": "https://helmutjewelry.com/",
         "imageurl": ""
+      },
+      {
+        "name": "The Morning Rose",
+        "address": "340 N 9th St, Show Low, AZ 85901",
+        "phone": "(928) 532-7673",
+        "url": "https://www.themorningrose.com/",
+        "imageurl": ""
+      },
+      {
+        "name": "Coues Ridge Construction LLC",
+        "address": "1740 N Fairway Dr, Show Low, AZ 85901",
+        "phone": "(928) 205-9005",
+        "url": "https://www.facebook.com/CouesRidgeConstruction/",
+        "imageurl": ""
+      },
+      {
+        "name": "Riggs Ellsworth & Porter",
+        "address": "240 N White Mountain Rd Ste A, Show Low, AZ 85901",
+        "phone": "(928) 537-3228",
+        "url": "https://riggslaw.com/",
+        "imageurl": ""
+      },
+      {
+        "name": "Torreon Golf Club",
+        "address": "651 S Torreon Loop, Show Low, AZ 85901",
+        "phone": "(928) 532-8000",
+        "url": "https://torreon.com/",
+        "imageurl": ""
+      },
+      {
+        "name": "Loftgreen Photography",
+        "address": "701 E. Deuce Of Clubs Show Low, AZ 85901",
+        "phone": "(928) 537-3566",
+        "url": "www.lofgreenphotography.com",
+        "imageurl": ""
+      },
+      {
+        "name": "Adventure Realty",
+        "address": "1400 E Woolford Rd Suite B, Show Low, AZ 85901",
+        "phone": "(928) 537-1145",
+        "url": "https://www.adventurerealtyaz.com/",
+        "imageurl": ""
       }
     ]
   }

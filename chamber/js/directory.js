@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-Business.json';
+const requestURL = 'https://mamillergirl.github.io/wdd230/chamber/json/data.json';
 
 async function getBusinesses(requestURL){
     const response = await fetch(requestURL);
@@ -26,11 +26,13 @@ function displayBusiness(item){
     urlP.appendChild(url);
 
     logo.setAttribute('src', item.imageurl);
-    logo.setAttribute('alt', item.name + "logo");
+    logo.setAttribute('alt', item.name + " Logo");
 
     h4.textContent = item.name;
     address.textContent = item.address;
-    phone.textContent = item.phoneNumberl
+    phone.textContent = item.phone
+    url.textContent = item.url;
+
 
     card.appendChild(h4);
     card.appendChild(logo);
