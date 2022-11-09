@@ -23,6 +23,7 @@ function displayProphets(item){
     let pob = document.createElement('p')
 
     img.setAttribute('src', item.imageurl);
+    img.setAttribute('alt', item.name + "" + item.lastname);
 
     h2.textContent = item.name + ' ' + item.lastname;
     dob.textContent = 'Date of Birth: ' + item.birthdate;

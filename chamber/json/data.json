@@ -1,0 +1,46 @@
+{
+    "businesses": [
+      {
+        "name": "Kittles Fine Art",
+        "address": "100 N White Mountain Rd #101, Show Low, AZ 85901",
+        "phone": "(928) 207-5350",
+        "url": "https://www.kittlesfineart.com/",
+        "imageurl": ""
+      },
+      {
+        "name": "The House",
+        "address": "1191 E Hall, Show Low, AZ 85901",
+        "phone": "(928)-537-9273",
+        "url": "http://thehouseshowlow.com/",
+        "imageurl": ""
+      }, 
+      {
+        "name": "Persnikkitys Cafe",
+        "address": "1650 E. Deuce of Clubs, Show Low, Arizona 85901",
+        "phone": "(928) 251-1965",
+        "url": "https://www.persnikkityscafe.com/",
+        "imageurl": ""
+      },
+      {
+        "name": "Black Diamond Auto Glass",
+        "address": "1590 S White Mountain Rd, Show Low, AZ 85901",
+        "phone": "(928) 537-0500",
+        "url": "https://www.facebook.com/BlackDiamondAutoGlass/",
+        "imageurl": ""
+      },
+      {
+        "name": "Arizona Mountain Coffee Co.",
+        "address": "151 N White Mountain Rd, Show Low, AZ 85901",
+        "phone": "(928) 892-2326",
+        "url": "https://arizona-mountain-coffee-co.square.site/",
+        "imageurl": ""
+      },
+      {
+        "name": "Helmut the Jeweler",
+        "address": "100 N White Mountain Rd, Show Low, AZ 85901",
+        "phone": "(928) 532-4454",
+        "url": "https://helmutjewelry.com/",
+        "imageurl": ""
+      }
+    ]
+  }
