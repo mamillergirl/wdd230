@@ -370,7 +370,8 @@ label, input {
 }
 
 .cards img{
-  max-height: 150px;
+  max-height: 100px;
+  max-width: 80%;
   padding: 10px;
 }
 .cards h4{
