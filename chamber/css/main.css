@@ -357,3 +357,61 @@ label, input {
 .radio{
   text-align : left;
 }
+.cards{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px black;
+  margin: 10px;
+  
+}
+.cards div{
+  max-width: 100%;
+}
+
+.cards img{
+  max-width: 200px;
+  max-height: 150px;
+  padding: 10px;
+}
+.cards h4{
+  display: none;
+}
+
+.cards section{
+  margin: 5px;
+  box-shadow: 1px 1px 5px black;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+table{
+  width: 98%;
+  margin: 0auto;
+  justify-self: center; 
+  
+}
+td {
+  padding: 20px;
+  
+}
+.buttons{
+  display:flex;
+  justify-content: center;
+}
+
+.listDisplay{
+  display: none;
+}
+tr:nth-child(odd){
+  background-color: #C6CCD2;
+}
+tr:nth-child(even){
+  background-color: #F5F5F5;
+}
+@media (max-width: 32.5em) {
+  td{
+    padding: 10px;
+    display: block;
+  }
+}

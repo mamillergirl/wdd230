@@ -5,84 +5,84 @@
         "address": "100 N White Mountain Rd #101, Show Low, AZ 85901",
         "phone": "(928) 207-5350",
         "url": "https://www.kittlesfineart.com/",
-        "imageurl": "https://www.kittlesfineart.com/wp-content/uploads/2017/10/logo-kittles-fine-art-supply-co@0.5X.png"
+        "imageurl": "https://mamillergirl.github.io/wdd230/chamber/images/logos/kittles.png"
       },
       {
         "name": "The House",
         "address": "1191 E Hall, Show Low, AZ 85901",
         "phone": "(928)-537-9273",
         "url": "http://thehouseshowlow.com/",
-        "imageurl": "images/house.jpg"
+        "imageurl": "https://mamillergirl.github.io/wdd230/chamber/images/logos/house.png"
       }, 
       {
-        "name": "Persnikkitys Cafe",
+        "name":"Persnikkity's Cafe",
         "address": "1650 E. Deuce of Clubs, Show Low, Arizona 85901",
         "phone": "(928) 251-1965",
         "url": "https://www.persnikkityscafe.com/",
-        "imageurl": ""
+        "imageurl": "https://mamillergirl.github.io/wdd230/chamber/images/logos/persnikkitys.png"
       },
       {
         "name": "Black Diamond Auto Glass",
         "address": "1590 S White Mountain Rd, Show Low, AZ 85901",
         "phone": "(928) 537-0500",
         "url": "https://www.facebook.com/BlackDiamondAutoGlass/",
-        "imageurl": ""
+        "imageurl": "https://mamillergirl.github.io/wdd230/chamber/images/logos/black_diamond.png"
       },
       {
         "name": "Arizona Mountain Coffee Co.",
         "address": "151 N White Mountain Rd, Show Low, AZ 85901",
         "phone": "(928) 892-2326",
         "url": "https://arizona-mountain-coffee-co.square.site/",
-        "imageurl": ""
+        "imageurl": "https://mamillergirl.github.io/wdd230/chamber/images/logos/arizona_mountain_coffee.png"
       },
       {
         "name": "Helmut the Jeweler",
         "address": "100 N White Mountain Rd, Show Low, AZ 85901",
         "phone": "(928) 532-4454",
         "url": "https://helmutjewelry.com/",
-        "imageurl": ""
+        "imageurl": "https://mamillergirl.github.io/wdd230/chamber/images/logos/helmut.png"
       },
       {
         "name": "The Morning Rose",
         "address": "340 N 9th St, Show Low, AZ 85901",
         "phone": "(928) 532-7673",
         "url": "https://www.themorningrose.com/",
-        "imageurl": ""
+        "imageurl": "https://mamillergirl.github.io/wdd230/chamber/images/logos/morningrose.png"
       },
       {
         "name": "Coues Ridge Construction LLC",
         "address": "1740 N Fairway Dr, Show Low, AZ 85901",
         "phone": "(928) 205-9005",
         "url": "https://www.facebook.com/CouesRidgeConstruction/",
-        "imageurl": ""
+        "imageurl": "https://mamillergirl.github.io/wdd230/chamber/images/logos/couesridge.png"
       },
       {
         "name": "Riggs Ellsworth & Porter",
         "address": "240 N White Mountain Rd Ste A, Show Low, AZ 85901",
         "phone": "(928) 537-3228",
         "url": "https://riggslaw.com/",
-        "imageurl": ""
+        "imageurl": "https://mamillergirl.github.io/wdd230/chamber/images/logos/riggs_ellsworth_&porter.png"
       },
       {
         "name": "Torreon Golf Club",
         "address": "651 S Torreon Loop, Show Low, AZ 85901",
         "phone": "(928) 532-8000",
         "url": "https://torreon.com/",
-        "imageurl": ""
+        "imageurl": "https://mamillergirl.github.io/wdd230/chamber/images/logos/torreon.png"
       },
       {
         "name": "Loftgreen Photography",
         "address": "701 E. Deuce Of Clubs Show Low, AZ 85901",
         "phone": "(928) 537-3566",
         "url": "www.lofgreenphotography.com",
-        "imageurl": ""
+        "imageurl": "https://mamillergirl.github.io/wdd230/chamber/images/logos/loftgreen_photography.png"
       },
       {
         "name": "Adventure Realty",
         "address": "1400 E Woolford Rd Suite B, Show Low, AZ 85901",
         "phone": "(928) 537-1145",
         "url": "https://www.adventurerealtyaz.com/",
-        "imageurl": ""
+        "imageurl": "https://mamillergirl.github.io/wdd230/chamber/images/logos/adventure_realty.png"
       }
     ]
   }

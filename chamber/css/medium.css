@@ -46,6 +46,19 @@
         grid-column: 2 / 3;
         width: 100%;
     }
-   
+    .cards{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr;}
+    
+    .cardDisplay{
+        display:none;
+    }
+    td{
+        padding: 5px;
+    }
+    .listDisplay{
+        display:block;
+    }
 
 }
