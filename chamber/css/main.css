@@ -370,13 +370,15 @@ label, input {
 }
 
 .cards img{
-  max-height: 100px;
-  max-width: 80%;
+  height: 100px;
+  width: 200px;
+  object-fit: contain;
   padding: 10px;
 }
 .cards h4{
   display: none;
 }
+
 
 .cards section{
   margin: 5px;
@@ -384,6 +386,7 @@ label, input {
   justify-content: center;
   align-items: center;
   max-width: 100%;
+  
 }
 table{
   width: 98%;
