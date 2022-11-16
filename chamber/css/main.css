@@ -60,10 +60,16 @@ p {
   box-shadow: none;
   display: flex;
   justify-content: center;
+  border-bottom: solid black;
+  
+}
+.details div {
+  box-shadow: none;
+  
 }
 .description {
   text-align: right;
-  border-bottom: 1px solid black;
+  border-top: 1px solid black;
   margin-top: 0px;
   margin-bottom: 0px;
 }
