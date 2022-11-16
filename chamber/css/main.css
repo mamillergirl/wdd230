@@ -58,10 +58,8 @@ p {
 
 .details {
   box-shadow: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .description {
   text-align: right;
@@ -91,6 +89,7 @@ footer {
 .spotlight img {
   max-width: 35%;
   max-height: 35%;
+  object-fit: contain;
   padding: 10px;
   margin: 0 auto;
 }
@@ -410,6 +409,12 @@ tr:nth-child(odd){
 }
 tr:nth-child(even){
   background-color: #F5F5F5;
+}
+.weather div{
+  box-shadow: none;
+}
+#weathericon{
+  padding: 10px;
 }
 @media (max-width: 32.5em) {
   td{
