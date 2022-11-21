@@ -15,7 +15,17 @@ const getWeather = async () => {
     document.querySelector('#windSpeed').textContent = jsObject.currentConditions.windspeed;
   };
 getWeather();
+const temp = document.getElementById("current-temp").textContent;
+console.log(temp);
 
+const windspeed = document.getElementById("windSpeed").textContent;
+const windchill = document.getElementById("windChill");
+
+if (temp <= 50 && windspeed > 3){
+   let chill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(windspeed,0.16)) + (0.4275*temp*Math.pow(windspeed,0.16)));
+   
+   windchill.textContent = chill + "℉";
+}
 
 
 //const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5314245&appid=533e0e90e22511f4a70803e8458c20ae";
