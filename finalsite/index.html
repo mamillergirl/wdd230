@@ -1,23 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marisa Miller's Final Site</title>
-    <link href="styles/main.css" rel="stylesheet">
-</head>
-<body>
-    <div id="top">
-        <nav >
-            <ul class="navigation">
-            <li><a href="#" class="ham">Menu</a></li>
-            <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
-            <li><a href="join.html">Join</a></li>
-    
-            </ul>
-          </nav>
-    </div>
-</body>
+    <link href="styles/main.css" rel="stylesheet" />
+    <link href="styles/medium.css" rel="stylesheet" />
+    <link href="styles/large.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+            <img decoding="async" src="images/AstrometoLogo.webp" alt="Logo Image">
+        </div>
+        <div class="hamburger">
+            <div class="bars1"></div>
+            <div class="bars2"></div>
+            <div class="bars3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="roverpics.html">Mars Rover Pictures</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+
+        </ul>
+      </nav>
+  </header>
+  
+    <main>
+        <div class="top">
+          <div class="centered"><h2>What is beyond Earth?</h2></div>
+          <div class="call"><button>Learn More</button></div>
+          <img id="background" src="images/background.png"> 
+        </div>
+       <div class="main">
+        <section class="dailyPicture">
+            <h3>Astronomy Picture of the Day</h3>
+            <img id="astronomyImg" alt="astronomyPicture">
+            <h4 id="dailyTitle"></h4>
+            <p><span id="date"></span></p>
+            <p id="picDescription"></p>
+
+        </section>
+        <section class="news">
+            <h3>Recent News</h3>
+            <div class="container">
+            <article class="card shadow">
+              <div>
+                <img src="images/news1.png" alt="image">
+              </div>
+        
+              <div>
+                <p><strong><p>The uncrewed Orion successfully completed a 207-second engine burn — its longest of the Artemis 1 mission </p></strong></p>
+              </div>
+            </article>
+          
+          <article class="card shadow">
+            <div>
+              <img src="images/news2.png" alt="image">
+            </div>
+      
+            <div>
+              <p><strong><p>Mars' 68-mile-wide (110 km) Pohl Crater was carved out by an asteroid much like the giant Chicxulub impactor that heralded the end of the dinosaurs.</p></strong></p>
+            </div>
+          </article>
+          <div id="news3">
+          <article class="card shadow" >
+            
+            <div>
+              <img src="images/news3.png" alt="image">
+            </div>
+      
+            <div>
+              <p><strong><p>Rising star in astronomy: Howard Chen</p></strong></p>
+            </div>
+          </article>
+        </div>
+            <button class="button">More</button>
+         
+        </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+        <div class="topFooter">
+ 
+          <p>info@astrometo.org</p>
+          <div class="social">
+          <a href="https://www.instagram.com/sem/campaign/emailsignup/?campaign_id=13530334509&extra_1=s|c|547348909654|e|instagram%20%27|&placement=&creative=547348909654&keyword=instagram%20%27&partner_id=googlesem&extra_2=campaignid%3D13530334509%26adgroupid%3D126262421974%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-1321618851291%26loc_physical_ms%3D9029499%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D"><img src="images/instagram.png" alt="instagram logo"></a>
+          <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube logo"></a>
+          <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook logo"></a>
+        </div>
+        </div>
+  
+        <p>&copy;2022 Astrometo  |    Marisa Miller     |   WDD 230 Project</p>
+      </footer>
+      <script src="js/picture.js"></script>
+      <script src="js/script.js"></script>
+  </body>
 </html>

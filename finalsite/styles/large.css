@@ -1,0 +1,48 @@
+@media (min-width: 1100px) {
+  
+    .header{
+        display: flex;
+        justify-content: space-between
+        
+    }
+    .logo {
+      max-width: 175px;
+     
+    }
+    nav a {
+      font-size: 1.3rem;
+    }
+    nav {
+      border: none;
+    }
+    #news3{
+        display: block;
+    }
+   
+    .call{
+        bottom: 25%;
+        right: 25%;
+    }
+    .main{
+        display: flex;
+        flex-direction: row-reverse;
+        
+        justify-content: space-between;
+        padding: 20px;
+    }
+     
+    .news{
+        align-self: center;
+    }
+    .dailyPicture {
+       
+        max-width: 55%;
+    }
+  
+    #menuIcon {
+        display: none;
+    }
+    
+    
+
+  }
