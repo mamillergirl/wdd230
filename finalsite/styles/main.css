@@ -360,7 +360,7 @@ button:hover {
 
 /*Responsive Adding Media Queries*/
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 800px) {
   nav {
     position: relative;
     z-index: 3;
