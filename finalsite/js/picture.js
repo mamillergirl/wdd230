@@ -3,13 +3,10 @@ const apiURL = "https://go-apod.herokuapp.com/apod";
 const getPic = async () => {
     const response = await fetch(apiURL);
     const jsObject = await response.json();
-    console.log(jsObject);
-    document.getElementById('astronomyImg').setAttribute('src', jsObject.url);
-    document.getElementById('astronomyImg').setAttribute('alt', jsObject.title);
-    document.getElementById('dailyTitle').textContent = jsObject.title;
-    document.getElementById('date').textContent = jsObject.date;
-    document.getElementById('picDescription').textContent = jsObject.explanation;
+   
 
+    document.getElementById('picinfo').innerHTML = `<img  id="astronomyImg" src="${jsObject.url}" alt="${jsObject.title}"></img> <h4 id="dailyTitle">${jsObject.title}</h4>
+    <p><span id="date">${jsObject.date}</span></p>`
   };
 getPic();
 
