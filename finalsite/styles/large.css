@@ -2,7 +2,8 @@
   
     .header{
         display: flex;
-        justify-content: space-between
+        justify-content: space-between;
+    
         
     }
     .logo {
@@ -10,7 +11,7 @@
      
     }
     nav a {
-      font-size: 1.3rem;
+      font-size: 1.15em;
     }
     nav {
       border: none;
@@ -34,15 +35,80 @@
     .news{
         align-self: center;
     }
-    .dailyPicture {
+    .main .dailyPicture {
        
-        max-width: 55%;
+        width: 55%;
     }
   
     #menuIcon {
         display: none;
     }
-    
+    .roverPics{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    .roverPics img:hover{
+        box-shadow:  0 3px 10px rgb(0 0 0 / 0.2);
+    }
+    .newsSection {
+        display: grid;
+        margin: auto;
+        grid-gap: 5px;
+        max-width: 96vw;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 20px;
+    }
+    .newsSection img{
+        object-fit: cover;
+    }
+
+    #news3{
+        grid-column: 1 / 3;
+        grid-row: 1/ 2;
+    }
+    #news2{
+        grid-column: 3 / -1;
+        grid-row: 1/ 2;
+    }
+    #news1{
+        grid-column: 1 / 3;
+        grid-row: 2/ 3;
+    }
+    #news4{
+        grid-column: 3 / 4;
+        grid-row: 2/ 3;
+    }
+    #news5{
+        grid-column: 4 / -1;
+        grid-row: 2 / 3;
+    }
+    .btn:hover {
+        outline: none;
+        cursor: pointer;
+        outline: 0;
+        border: none;
+        font-size: 1.25em;
+        background-color: transparent;
+        
+      }
+
+      .contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .myslides img{
+        height: 30%;
+      }
+      #picturePage{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .right {
+       vertical-align: middle;
+     
+      }
     
 
   }

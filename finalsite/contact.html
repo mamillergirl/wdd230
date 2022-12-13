@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marisa Miller's Final Site</title>
+    <link href="styles/main.css" rel="stylesheet" />
+    <link href="styles/medium.css" rel="stylesheet" />
+    <link href="styles/large.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+            <img decoding="async" src="images/AstrometoLogo.webp" alt="Logo Image">
+        </div>
+        <div class="hamburger">
+            <div class="bars1"></div>
+            <div class="bars2"></div>
+            <div class="bars3"></div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="roverpics.html">Mars Rover Photos</a></li>
+          <li><a href="images.html">Influential Photos</a></li>
+          <li><a href="dailypicture.html">Photo of the Day</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+      </nav>
+  </header>
+  
+    <main>
+        <div class="contact">
+        <div class="text">
+            <h1>
+                Contact us
+            </h1>
+            <p>
+                Have any suggestions or questions? Fill out this form and we will be right on it!
+            </p>
+            <img alt="astronaut cartoon" id = "astronaut" src="images/astronaut.png">
+        </div>
+        <div class="form">
+            <form id="form" action="thankyou.html" method="GET">
+                <label for="fname">First Name*: </label>
+                <input id="fname" type="text" minlength="2" name="firstname" required>
+                <label for="lname">Last Name*:</label>
+                <input id="lname" type="text"  minlength="3" name="lastname" required>
+                   <label for="email">Email*:</label>
+                <input id="email" type="email" name="email" placeholder="example@astrometo.com" >
+                <label for="cellnumber">Cell Phone Number:</label>
+                <input id="cellnumber" type="tel" name="cellnumber"  required>
+               
+                <label for="description">Business Description:</label>
+                <textarea required id="description" placeholder="your ideas here"></textarea>
+                <input type="hidden" id="date" name="dateTime">
+                <input id="formbutton" type="submit" value="Submit">
+        
+                
+              </form>
+        </div>
+    </div>
+        
+    </main>
+    <footer>
+        <div class="topFooter">
+ 
+          <p>info@astrometo.org</p>
+          
+        </div>
+  
+        <p>&copy;2022 Astrometo  |    Marisa Miller     |   WDD 230 Project</p>
+        <div class="social">
+            <a href="https://www.instagram.com/sem/campaign/emailsignup/?campaign_id=13530334509&extra_1=s|c|547348909654|e|instagram%20%27|&placement=&creative=547348909654&keyword=instagram%20%27&partner_id=googlesem&extra_2=campaignid%3D13530334509%26adgroupid%3D126262421974%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-1321618851291%26loc_physical_ms%3D9029499%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D"><img src="images/instagram.png" alt="instagram logo"></a>
+            <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube logo"></a>
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook logo"></a>
+          </div>
+      </footer>
+      <script src="js/rover.js"></script>
+      <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Marisa Miller's Final Site</title>
+        <link href="styles/main.css" rel="stylesheet" />
+        <link href="styles/medium.css" rel="stylesheet" />
+        <link href="styles/large.css" rel="stylesheet" />
+      </head>
+      <body>
+        <header>
+          <nav>
+            <div class="logo">
+                <img decoding="async" src="images/AstrometoLogo.webp" alt="Logo Image">
+            </div>
+            <div class="hamburger">
+                <div class="bars1"></div>
+                <div class="bars2"></div>
+                <div class="bars3"></div>
+            </div>
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="roverpics.html">Mars Rover Photos</a></li>
+              <li><a href="images.html">Influential Photos</a></li>
+              <li><a href="dailypicture.html">Photo of the Day</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+    
+            </ul>
+          </nav>
+      </header>
+      
+        <main>
+<h2> Influential Pictures</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 8</div>
+    <p>Captured by the Luna 3 space craft. Among first views ever of the far side of the moon.</p>
+    <img src="images/farsideofthemoon.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 8</div>
+    <p>"Buzz" Aldrin walking on the moon.</p>
+    <img src="images/firststepsonthemoon.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 8</div>
+    <img src="images/marssnow.png" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 8</div>
+    <p>Soviet cosmonaut Yuri Gagarin was the first man to be in space. In this picture, he is in his capsule, during the flight.</p>
+    <img src="images/yurigagarin.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 8</div>
+    <p>Nebula NGC 2014 and its neighbour NGC 2020 which together form part of a vast star-forming region in the Large Magellanic Cloud, a satellite galaxy of the Milky Way, approximately 163 000 light-years away.</p>
+    <img src="images/starbirth.png" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 8</div>
+    <p>The amazing Hubble Space Telescope, through a deep core sampling technique, captured a view of nearly 10,000 galaxies. </p>
+    <img src="images/galaxies.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">7 / 8</div>
+    <p>The original "Blue Marble" was taken on Dec. 7, 1972, by the crew of the Apollo 17 spacecraft.</p>
+    <img src="images/bluemarble.png" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">8 / 8</div>
+    <p>Shot by astronaut William Anders during the Apollo 8 mission</p>
+    <img src="images/earthrise.png" style="width:100%">
+  </div>
+    
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+       
+      <img class="demo cursor small" src="images/farsideofthemoon.png" style="width:100%" onclick="currentSlide(1)" alt="Far Side of the Moon 1959">
+    </div>
+    <div class="column">
+      <img class="demo cursor small" src="images/firststepsonthemoon.png"  style="width:100%" onclick="currentSlide(2)" alt="First Steps on the Moon 1961">
+    </div>
+    <div class="column">
+      <img class="demo cursor small" src="images/marssnow.png" style="width:100%" onclick="currentSlide(3)" alt="Mars Snow">
+    </div>
+    <div class="column">
+      <img class="demo cursor small" src="images/yurigagarin.png" style="width:100%" onclick="currentSlide(4)" alt="Yuri Gagarin 1961">
+    </div>
+    <div class="column">
+      <img class="demo cursor small" src="images/starbirth.png" style="width:100%" onclick="currentSlide(5)" alt="Tapestry of Blazing Starbirth 2020">
+    </div>    
+    <div class="column">
+      <img class="demo cursor small" src="images/galaxies.png" style="width:100%" onclick="currentSlide(6)" alt="Hubble Captures Galaxies Galore 2004">
+    </div>
+
+    <div class="column">
+        <img class="demo cursor small" src="images/bluemarble.png" style="width:100%" onclick="currentSlide(7)" alt="Blue Marble 1972">
+    </div>
+    <div class="column">
+        <img class="demo cursor small" src="images/earthrise.png" style="width:100%" onclick="currentSlide(8)" alt="Earth Rise 1968">
+      </div>
+  </div>
+</div>
+</main>
+
+<footer>
+    <div class="topFooter">
+
+      <p>info@astrometo.org</p>
+      
+    </div>
+
+    <p>&copy;2022 Astrometo  |    Marisa Miller     |   WDD 230 Project</p>
+    <div class="social">
+        <a href="https://www.instagram.com/sem/campaign/emailsignup/?campaign_id=13530334509&extra_1=s|c|547348909654|e|instagram%20%27|&placement=&creative=547348909654&keyword=instagram%20%27&partner_id=googlesem&extra_2=campaignid%3D13530334509%26adgroupid%3D126262421974%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-1321618851291%26loc_physical_ms%3D9029499%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D"><img src="images/instagram.png" alt="instagram logo"></a>
+        <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube logo"></a>
+        <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook logo"></a>
+      </div>
+  </footer>
+  <script src="js/slides.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -13,7 +13,7 @@ async function getRoverPics(requestURL){
 
         console.log(photos);
         
-        displayRoverPics(photos[1]);
+        displayRoverPics(photos[25]);
         displayRoverPics(photos[855]);
         displayRoverPics(photos[312]);
         displayRoverPics(photos[569]);
@@ -48,7 +48,7 @@ function displayRoverPics(item){
    
    
     ed.innerText = item.earth_date;
-    card.innerHTML = `<h2>${item.rover.name} Rover ${item.camera.full_name}</h2><span>${item.earth_date}</span><img src="${item.img_src}" alt="${item.rover.name + item.camera.full_name} photo"> `
+    card.innerHTML = `<h3>${item.rover.name} Rover ${item.camera.full_name}</h3><span>${item.earth_date}</span><img src="${item.img_src}" alt="${item.rover.name + item.camera.full_name} photo"> `
    
     
 
